@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="./css/form.css">
+
+    
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg">
+        <div class="container">
+            <!-- <a href="#" class="navbar-brand"><img src="./img/logo2.jpg" alt="" class="img-fluid d-block" id="logo"></a> -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse " id="navbarSite">
+                <ul class="navbar-nav mr-auto mx-auto">
+
+                    <li class="nav-item">
+                        <a href="./index.html" class="nav-link"><b>INÍCIO</b></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="./sobre.html" class="nav-link"><b>SOBRE</b></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="./servicos.html" class="nav-link"><b>SERVIÇOS</b></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="./portfolio.html" class="nav-link"><b>PORTFÓLIO</b></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="./blog.html" class="nav-link"><b>BLOG</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./contato.html" class="nav-link"><b>CONTATO</b></a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+   <main>
+       <div class="container">
+        <form method="POST"  action="https://api.staticforms.xyz/submit">
+            <input type="hidden" name="accessKey" value="4035808f-9eee-4c25-a5b2-851c13a991ef">
+            <div class="form-group">
+              <label for="nome">Digite nome</label>
+              <input type="text" class="form-control" id="nome"  placeholder="Seu nome" name="name">
+         
+            </div>
+
+            <div class="form-group">
+                <label for="tel">Digite seu telefone</label>
+                <input type="tel"  id="tel" class="form-control"   name="phone">
+           
+              </div>
+
+            <div class="form-group">
+                <label for="email">Digite email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email" name="email">
+                <small id="email" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+              </div>
+            <div class="form-group ">
+              <label for="mensagem">Mensagem</label> <br>
+            <textarea name="message" id="mensagem" cols="60" rows="5" class="boxmsg" placeholder="Digite sua mensagem"></textarea>
+            </div>
+           
+
+            
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+       </div>
+   </main>
+   <footer>
+
+    <div class="rodape  ">
+        <div   >
+            <p><b><i class="fab fa-whatsapp"></i></b> (11) 91014-4841/ 93229-5707 <br>
+                <b><i class="fas fa-envelope-square"></i></b> expressionprojetos@gmail.com
+            </p>
+        </div>
+
+        <div class="mt-2"   >
+            <p><b> <a href="https://www.instagram.com/expressionprojetos/"   class="linkColor"><i class="fab fa-instagram"></i>  @expressionprojetos </a></b> <br>
+                <b><a href=" https://www.facebook.com/expressionprojetos"  class="linkColor"> <i class="fab fa-facebook-f" ></i> Nosso Facebook</a></i></b> 
+            </p>
+        </div>
+    </div>
+
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

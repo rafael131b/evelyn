@@ -1,0 +1,284 @@
+.bg {
+  /* background-color:#107f86; */
+  background-color: #107f86;
+}
+.texto {
+  margin-top: 2px;
+}
+body {
+  background-color: #fff;
+  /* font-family: "Oregano", cursive; */
+}
+.bgCard {
+  background-color: #abd3d2;
+}
+li a {
+  font-family: "Bree Serif", serif;
+  font-size: 20px;
+}
+
+.card-font {
+  font-family: "Oregano", cursive;
+}
+.myfooter {
+}
+#logo {
+  width: 550px;
+  height: 250px;
+}
+.container {
+  width: 70%;
+}
+
+.shaddow:hover {
+  box-shadow: 10px 5px 10px grey;
+}
+.containerTexto {
+  width: 60%;
+  margin: 0 auto;
+}
+.bordaTexto {
+  margin-top: 50px;
+}
+.containerTexto p {
+  font-size: 20px;
+}
+
+.drop {
+  background-color: #107f86;
+}
+footer {
+  height: 80px;
+  width: 100%;
+  background-color: #107f86;
+  margin-top: 100px;
+}
+
+.rede {
+  height: 30px;
+  background-color: blueviolet;
+  color: white;
+  position: fixed;
+}
+.rodape {
+  display: flex;
+  justify-content: space-around;
+}
+.whatsapp-link {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  right: 60px;
+  bottom: 40px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+}
+.fa-whatsapp {
+  margin-top: 16px;
+}
+
+/* PORTIFOLIO */
+
+#demo {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.green {
+  background-color: #6fb936;
+}
+.thumb {
+  margin-bottom: 30px;
+}
+#painel h1 {
+  color: #000;
+  margin-top: 0px;
+}
+.page-top {
+  margin-top: 85px;
+}
+.rodape div p {
+  color: white;
+}
+img.zoom {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  object-fit: cover;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+.transition {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.modal-header {
+  border-bottom: none;
+}
+.modal-title {
+  color: #000;
+}
+.modal-footer {
+  display: none;
+}
+
+/* FORMULARIO */
+.form {
+  margin-top: 100px;
+}
+
+/* BLOG */
+#painel {
+  height: 50px;
+  width: 200px;
+  display: flex;
+  margin: 0 auto;
+  background-color: #fff;
+  color: #107f86;
+  background-color: #107f86;
+  margin-top: 80px;
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  justify-content: center;
+}
+#painel H1 {
+  color: #fff;
+}
+
+.sectionServicos {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.sectionServicos img {
+  width: 100%;
+  height: 900px;
+}
+.textMobile {
+  width: 80%;
+}
+.img_blog {
+  width: 50%;
+  margin: 0 auto;
+}
+.cards {
+  margin-top: 100px;
+}
+.servicosMobile {
+  margin-left: 220px;
+}
+/* formulario */
+.servicosMobile a {
+  margin-left: 100px;
+}
+.imgService img {
+  max-width: 100%;
+  width: 60%;
+}
+.imgService {
+  width: 100%;
+  margin-top: 20px;
+}
+.img-link {
+  display: flex;
+  justify-content: center;
+}
+.servicosIndex {
+  margin: auto;
+  display: block;
+  width: 80%;
+}
+.slide {
+  min-width: 100%;
+}
+.linkColor {
+  color: #fff;
+}
+.p-rodape {
+  color: black;
+}
+@media (max-width: 600px) {
+  .card {
+    margin-top: 50px;
+  }
+  .container {
+    width: 90%;
+  }
+  .img img {
+    height: 50%;
+  }
+  .menu-mobile {
+    display: block;
+    margin: 0 auto;
+  }
+  .imgService img {
+    width: 100%;
+  }
+  .imgService {
+    margin-top: 50px;
+  }
+
+  #painel {
+    height: auto;
+    width: auto;
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
+    color: #107f86;
+  }
+
+  .cardMobile {
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .bordaTexto {
+    margin-top: 10px;
+  }
+  .containerTexto {
+    width: 100%;
+    padding: 5px;
+  }
+  .servicosMobile a {
+    margin-left: -180px;
+    width: 100%;
+  }
+
+  .rodape {
+    display: block;
+
+    height: 150px;
+  }
+  footer {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+  }
+  .linkColor {
+    color: #fff;
+  }
+  .p-rodape {
+    color: white;
+  }
+  .myfooter {
+    margin-top: 150px;
+  }
+
+  .boxmsg {
+    width: 100%;
+  }
+}
